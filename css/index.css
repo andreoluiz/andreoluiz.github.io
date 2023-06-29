@@ -3,22 +3,28 @@
     src: url("../font/SHPinscher-Regular.otf");
 }
 
+
 body{
     flex: 1;
     background-image: url("https://raw.githubusercontent.com/andreoluiz/andreoluiz.github.io/main/images/_24daded1-c3fd-4461-a4dc-b118541a6e87.jpg");
     background-size: cover;
     color: black;
     background-repeat: no-repeat;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
 }
 
 
 #container_meio {
-
-    background-color: rgb(216, 188, 112);
-    border: 10px solid rgb(201, 149, 58);
+    color: white;
+    background-image: url(../images/oldScrollMID.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
     font-family: pixelEu;
     font-size: 1.2rem;
-    width: 50%;
+    width: 60%;
+    padding: 10%;
     margin: auto;
     margin-top: 5%;
     margin-bottom: 5%;
