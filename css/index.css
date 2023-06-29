@@ -1,0 +1,37 @@
+@font-face {
+    font-family: pixelEu;
+    src: url("../font/SHPinscher-Regular.otf");
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+.meio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    text-align: center;
+    background-image: url("../images/_24daded1-c3fd-4461-a4dc-b118541a6e87.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: pixelEu;
+    font-size: 20px;
+}
+
+#container_meio{
+height: 80%;
+width: 50%;
+background-color: rgb(216, 188, 112);
+border: 3px;
+margin: 5%;
+border: 10px solid rgb(201, 149, 58);
+
+}
+
+#container_meio img{
+    width: 50%;
+}
