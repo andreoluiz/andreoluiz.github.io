@@ -46,4 +46,15 @@ body{
 }
 
 
-
+@media(max-width: 450px) {
+   
+    #container_meio{
+        margin-top: 11%;
+        margin-bottom: 10%;
+        width: 80%;
+    }
+    
+    #container_meio img{
+        width: 40%;
+    }
+}
