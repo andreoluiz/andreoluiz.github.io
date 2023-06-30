@@ -25,6 +25,21 @@ body{
     text-align: center;
 }
 
+#botoes {
+    display: flex;
+    
+}
+
+#botao1 {
+    margin: auto;
+
+    
+}
+
+#botao2 {
+    margin: auto;
+}
+
 #container_meio img{
     margin: auto;
     display: block;
