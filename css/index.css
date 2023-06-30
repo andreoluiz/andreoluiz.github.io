@@ -25,9 +25,22 @@ body{
     font-size: 1.2rem;
     width: 70%;
     margin: auto;
-    margin-top: 5%;
-    margin-bottom: 5%;
     text-align: center;
+}
+
+#scroll-top img {
+    margin: auto;
+    display: block;
+    width: 70%;
+    margin-top: 5%;
+}
+
+#scroll-botton img {
+    margin: auto;
+    display: block;
+    width: 70%;
+    margin-bottom: 5%;
+
 }
 
 #container_meio img{
@@ -35,6 +48,7 @@ body{
     display: block;
     width: 20%;
 }
+
 
 .subtl {
     text-decoration: underline;
