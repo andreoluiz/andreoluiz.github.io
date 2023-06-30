@@ -16,7 +16,6 @@ body{
 
 
 #container_meio {
-    color: black;
     background-image: url(../images/oldScrollMID.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -26,6 +25,7 @@ body{
     width: 70%;
     margin: auto;
     text-align: center;
+    padding: 10%;
 }
 
 #scroll-top img {
@@ -49,6 +49,13 @@ body{
     width: 20%;
 }
 
+#botoes {
+    display: flex;
+    margin-left: 2%;
+    margin-right: 2%;
+    justify-content: center;
+    gap: 5rem;
+}
 
 .subtl {
     text-decoration: underline;
@@ -58,21 +65,10 @@ body{
     padding-bottom: 3rem;
 }
 
-#botoes {
-    display: flex;
-
-    
-}
-
 .pader {
     padding-bottom: 2rem;
     margin-left: 5%;
     margin-right: 5%;
-}
-
-#botao1 {
-    margin: auto;
-
 }
 
 #contatos {
@@ -80,27 +76,35 @@ body{
     margin-right: 5%;
 }
 
-#botao2 {
-    margin: auto;
+@media(max-width:890px) {
+    #botoes {
+        display: block;
+    }
 }
-
-
-
-
-
 
 @media(max-width: 450px) {
 
     #container_meio{
-        margin-top: 11%;
-        margin-bottom: 10%;
-        width: 100%;
+        
+        display: block;
+
+        
+
 
     }
     
-    #container_meio img{
-        width: 40%;
+    #scroll-top {
+        margin-top: 11%;
+        margin: auto;
+        display: block;
+        
     }
+    
+    #container_meio img{
+       width: 40%;
+    }
+
+    
 
     .pader {
         padding-bottom: 2rem;
@@ -109,7 +113,7 @@ body{
     }
 
     #botoes {
-        padding: 15%;
+        display: block;
     }
 
 }
